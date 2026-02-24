@@ -47,3 +47,15 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+/* This is a new style rule just for completed tasks */
+.completed {
+    text-decoration: line-through; /* This draws a line through the text */
+    color: gray; /* This makes the text fade out a bit */
+}
+
+/* Let's also make the tasks look clickable so the user knows they can tap them */
+li {
+    cursor: pointer; /* Changes the mouse pointer to a little hand */
+    padding: 8px; /* Adds a little breathing room around the text */
+}
